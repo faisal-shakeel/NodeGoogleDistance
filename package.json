@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-googledistance-example",
+  "version": "1.0.0",
+  "description": "Easily get traveling distance and duration data between locations with the Google Distance Matrix API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [
+    "nodejs",
+    "google-distance",
+    "google",
+    "matrix",
+    "api"
+  ],
+  "author": "Muhammad Harits Syaifulloh",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "google-distance": "^1.0.1",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0"
+  }
+}
